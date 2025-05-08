@@ -27,49 +27,49 @@ class PantallaUno extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, '/pantalla2');
               },
-              child: const Text('2'),
+              child: const Text('Expanded'),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/pantalla3');
               },
-              child: const Text('22'),
+              child: const Text('TextField'),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/pantalla8');
               },
-              child: const Text('32'),
+              child: const Text('IconButton'),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/pantalla4');
               },
-              child: const Text('42'),
+              child: const Text('ClipRect'),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/pantalla5');
               },
-              child: const Text('52'),
+              child: const Text('Dropdown'),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/pantalla6');
               },
-              child: const Text('62'),
+              child: const Text('ExpansionTile'),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/pantalla7');
               },
-              child: const Text('72'),
+              child: const Text('AnimatedPadding'),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/pantalla9');
               },
-              child: const Text('82'),
+              child: const Text('Backdrpfilter'),
             ),
           ],
         ),
